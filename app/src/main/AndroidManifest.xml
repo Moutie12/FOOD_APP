@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyFood"
+        tools:targetApi="31">
+        <activity
+            android:name=".favorite"
+            android:exported="false" />
+        <activity
+            android:name=".orders"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".LeClarence"
+            android:exported="false" />
+        <activity
+            android:name=".ElevenMadison"
+            android:exported="false" />
+        <activity
+            android:name=".TheFrenchLaundry"
+            android:exported="false" />
+        <activity
+            android:name=".Mirazur"
+            android:exported="false" />
+        <activity
+            android:name=".larpege"
+            android:exported="false" />
+        <activity
+            android:name=".LeLouisXV"
+            android:exported="false" />
+        <activity
+            android:name=".liste_resto"
+            android:exported="false" />
+        <activity
+            android:name=".KFCfood"
+            android:exported="false" />
+        <activity
+            android:name=".burgerKing"
+            android:exported="false" />
+        <activity
+            android:name=".taco"
+            android:exported="false" />
+        <activity
+            android:name=".whataburger"
+            android:exported="false" />
+        <activity
+            android:name=".Mac_menu"
+            android:exported="false" />
+        <activity
+            android:name=".starbucks_menu"
+            android:exported="false" />
+        <activity
+            android:name=".Restaurants"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
+            android:name=".Articles"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

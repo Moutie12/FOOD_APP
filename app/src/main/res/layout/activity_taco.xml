@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food_app"
+    tools:context=".starbucks_menu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/order24"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder01"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order25"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder02"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order26"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder03"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="168dp"
+            android:layout_height="118dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bande_annonce"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="162dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="6dp"
+                android:fontFamily="monospace"
+                android:text="Adresse : 12 rue ennyar , La Médina, Tunis 1000"
+                android:textColor="@color/black"
+                android:textSize="21dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="476dp"
+            android:text="Soft Taco"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="105dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="580dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taco6" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="102dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="580dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taco5" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="102dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="580dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taco4" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="676dp"
+            android:text="Chicken Quesadilla"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="102dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="668dp"
+            android:text="Cheesy Fiesta"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/order28"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder05"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order27"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder04"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order29"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="240dp"
+            android:layout_marginTop="200dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder06"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="672dp"
+            android:text="Nachos BellGrande"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="476dp"
+            android:text="Cheesy Roll Up"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="476dp"
+            android:text="Quesarito"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="103dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="364dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taco2" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="96dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="368dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taco1" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="103dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="364dp"
+            android:background="@drawable/taco3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="244dp"
+            android:layout_height="129dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="76dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/taco_menu" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="258dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:text="TacoBell  Menu"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="162dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bande_annonce"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="154dp"
+                android:layout_height="131dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:text="Horaires :Ouvert ⋅ Ferme à 23:00"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

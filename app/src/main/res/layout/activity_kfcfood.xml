@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food_app"
+    tools:context=".starbucks_menu">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/order22"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="204dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder34"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order21"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="204dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder33"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order23"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="228dp"
+            android:layout_marginTop="204dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder35"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order20"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="232dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder32"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order18"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder30"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order19"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder31"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout3"
+            android:layout_width="174dp"
+            android:layout_height="121dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/bande_annonce"
+            app:layout_constraintBottom_toTopOf="@+id/imageView18"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout7"
+            app:layout_constraintHorizontal_bias="0.65"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="144dp"
+                android:layout_height="106dp"
+                android:layout_marginStart="38dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="monospace"
+                android:text="Adresse : 12 rue ennyar , La Médina, Tunis 1000"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout8"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:background="@drawable/bande_annonce"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="152dp"
+                    android:layout_height="109dp"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="19dp"
+                    android:fontFamily="monospace"
+                    android:text="Adresse : Rue de Palestine, Ariana 2083"
+                    android:textColor="@color/black"
+                    android:textSize="19dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="476dp"
+            android:text="CHEDDAR LOVER"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="102dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="576dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kfc5" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="132dp"
+            android:layout_marginTop="680dp"
+            android:text="Veggie Whopper"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="102dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="576dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kfc4" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="105dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="576dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kfc6" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="102dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="676dp"
+            android:text="KING WINGS"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="680dp"
+            android:text="CRISPY CHICKEN"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="476dp"
+            android:text="CHICKEN CHEDDAR LOVER"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="476dp"
+            android:text="EXTRA CHEDDAR"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="103dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="364dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kfc2" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="96dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="368dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kfc1" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="103dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="364dp"
+            android:background="@drawable/kfc3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="244dp"
+            android:layout_height="129dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="76dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/kfc_menu" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="258dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:text="KFC Food Menu"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout7"
+            android:layout_width="167dp"
+            android:layout_height="126dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="55dp"
+            android:background="@drawable/bande_annonce"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout3"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="152dp"
+                android:layout_height="109dp"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="monospace"
+                android:text="Horaires :Ouvert ⋅ Ferme à 23:00"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

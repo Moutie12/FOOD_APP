@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food_app"
+    tools:context=".Mirazur">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/order58"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder40"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order57"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder39"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order59"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder41"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order54"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder36"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order55"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder37"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <TextView
+            android:id="@+id/order56"
+            android:layout_width="93dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn"
+            android:gravity="center"
+            android:onClick="addOrder38"
+            android:text="Order"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="168dp"
+            android:layout_height="118dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bande_annonce"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="162dp"
+                android:layout_height="114dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="6dp"
+                android:fontFamily="monospace"
+                android:text="Adresse : 12 rue ennyar , La Médina, Tunis 1000"
+                android:textColor="@color/black"
+                android:textSize="21dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="476dp"
+            android:text="Little Italy"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="105dp"
+            android:layout_height="97dp"
+            android:layout_marginStart="248dp"
+            android:layout_marginTop="592dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/man6" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="102dp"
+            android:layout_height="98dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="592dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/man5" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="696dp"
+            android:text="Pizza La Frontiere"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="102dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="592dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/man4" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="102dp"
+            android:layout_height="65dp"
+            android:layout_marginStart="252dp"
+            android:layout_marginTop="692dp"
+            android:text="La Galetiere"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="696dp"
+            android:text="Le Bonzai "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="476dp"
+            android:text="Menu entier"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="464dp"
+            android:text="Gusto Sapori del Vicoletto"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="103dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="128dp"
+            android:layout_marginTop="364dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/man2" />
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="96dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="368dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/man1" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="103dp"
+            android:layout_height="92dp"
+            android:layout_marginStart="244dp"
+            android:layout_marginTop="364dp"
+            android:background="@drawable/man3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_width="244dp"
+            android:layout_height="129dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="76dp"
+            android:scaleType="fitXY"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/man_menu" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="258dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="72dp"
+            android:layout_marginTop="16dp"
+            android:text="mirazur   Menu"
+            android:textColor="@color/red"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="162dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bande_annonce"
+            app:layout_constraintStart_toEndOf="@+id/constraintLayout"
+            app:layout_constraintTop_toBottomOf="@+id/imageView20">
+
+            <TextView
+                android:id="@+id/textView810"
+                android:layout_width="154dp"
+                android:layout_height="131dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:text="Horaires :Ouvert ⋅ Ferme à 23:00"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food_app"
+    android:onClick="addResto8">
+
+    <ScrollView
+        android:layout_width="413dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/relativeLayout9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="416dp"
+                android:text="Taco Bell"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="330dp"
+                android:layout_height="54dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/search_bg"
+                android:drawableStart="@android:drawable/ic_menu_search"
+                android:ems="10"
+                android:hint="Find Your Food"
+                android:inputType="textPersonName"
+                android:textColor="#1C1C1C"
+                android:textColorHint="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view1u"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="196dp"
+                android:layout_marginTop="120dp"
+                android:onClick="pass_to_mac"
+                android:src="@drawable/mac"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="416dp"
+                android:text="StarBucks"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view1u2"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="300dp"
+                android:onClick="pass_to_star"
+                android:src="@drawable/kfc1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u2"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="480dp"
+                android:onClick="pass_to_KFCfood"
+                android:src="@drawable/logo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="236dp"
+                android:text="McDonald's"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_view1u2"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="300dp"
+                android:onClick="pass_to_star"
+                android:src="@drawable/starbucks"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="120dp"
+                android:onClick="pass_to_whataburger"
+                android:src="@drawable/whataburger"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_vieu"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="656dp"
+                android:onClick="pass_to_Mirazur"
+                android:src="@drawable/fr2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u3"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="840dp"
+                android:onClick="pass_to_Eleven"
+                android:src="@drawable/fr3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u6"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="1030dp"
+                android:onClick="pass_to_Clarence"
+                android:src="@drawable/fr5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u7"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="1030dp"
+                android:onClick="pass_to_larpege"
+                android:src="@drawable/fr6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u5"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="192dp"
+                android:layout_marginTop="824dp"
+                android:onClick="pass_to_louis"
+                android:src="@drawable/fr4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u4"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="656dp"
+                android:onClick="pass_to_Fresh"
+                android:src="@drawable/fr1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="196dp"
+                android:layout_marginTop="768dp"
+                android:text="Mirazur"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="950dp"
+                android:text="Le Louis XV"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="147dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="950dp"
+                android:text="Eleven Madison"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="147dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="1140dp"
+                android:text="Le Clarence"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="147dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="1140dp"
+                android:text="l'arpège"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="134dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="764dp"
+                android:text="The French Laundry"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="236dp"
+                android:text="WhatABurger"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="604dp"
+                android:text="Burger King"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="200dp"
+                android:layout_marginTop="604dp"
+                android:text="KFC food"
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u2"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="480dp"
+                android:onClick="pass_to_burger_king"
+                android:src="@drawable/burger"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_viewda1u2"
+                android:layout_width="131dp"
+                android:layout_height="112dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="300dp"
+                android:onClick="pass_to_taco"
+                android:src="@drawable/taco"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="19dp"
+                android:onClick="addResto1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="33dp"
+                android:layout_marginTop="19dp"
+                android:onClick="addResto2"
+                app:layout_constraintStart_toEndOf="@+id/image_viewda1u"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="392dp"
+                android:onClick="addResto6"
+                app:layout_constraintStart_toEndOf="@+id/image_viewda1u"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="568dp"
+                android:onClick="addResto8"
+                app:layout_constraintStart_toEndOf="@+id/image_viewda1u"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="740dp"
+                android:onClick="addResto10"
+                app:layout_constraintStart_toEndOf="@+id/image_viewda1u"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="924dp"
+                android:onClick="addResto12"
+                app:layout_constraintStart_toEndOf="@+id/image_viewda1u"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="200dp"
+                android:onClick="addResto4"
+                app:layout_constraintStart_toEndOf="@+id/image_viewda1u"
+                app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="16dp"
+                android:onClick="addResto3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="208dp"
+                android:onClick="addResto5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="384dp"
+                android:onClick="addResto7"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="560dp"
+                android:onClick="addResto9"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/star" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="37dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginTop="756dp"
+                android:onClick="addResto11"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/star" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
